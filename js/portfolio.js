@@ -28,7 +28,7 @@ $(document).ready(function(){
         
         // 스크롤 움직일 때마다 위치 체크해서 indi 들 하나만 사이즈 바꾸기
         for(let i = 0; i < sec_length; i++) {
-            if(arr_o_top[i] <= s_top  && s_top < arr_o_bot[i] - 50) {
+            if(arr_o_top[i] <= s_top && s_top < arr_o_bot[i] - 50) {
                 $('.indi').removeClass('indi_active');
                 $('.indi').eq(i).addClass('indi_active');
                 break;
@@ -49,7 +49,7 @@ $(document).ready(function(){
     
         // 스크롤 내릴 때 그래프 움직이게 하기
         for(let i=0; i<grap_length; i++) {
-            if (s_top >= $('.sec').eq(2).offset().top) {
+            if (s_top +200 >= $('.sec').eq(2).offset().top) {
             $('.grap_inner').eq(i).addClass('animate-width-'+ (i+1));
             if(chk != true) {
             for(let i=0; i<grap_length; i++) {
