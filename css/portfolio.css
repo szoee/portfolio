@@ -726,6 +726,15 @@ canvas {
     font-size: 17px;
     color: #3f3f3f;
 }
+.big {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.small {
+    font-size: 16px;
+    margin-top: 10px;
+}
 
 .inner3 {
     display: flex;
