@@ -55,7 +55,7 @@ h3 {
 
 #sec3 {
     background-color: #aaceffbf;
-    padding: 141px 250px;
+    padding: 105px 250px;
 }
 
 #sec4 {
@@ -558,7 +558,7 @@ canvas {
     }
 
     to {
-        width: 85%;
+        width: 80%;
     }
 }
 
@@ -568,7 +568,7 @@ canvas {
     }
 
     to {
-        width: 85%;
+        width: 80%;
     }
 }
 
@@ -588,7 +588,16 @@ canvas {
     }
 
     to {
-        width: 80%;
+        width: 85%;
+    }
+}
+@keyframes grap9 {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 85%;
     }
 }
 
@@ -622,6 +631,10 @@ canvas {
 
 .animate-width-8 {
     animation: grap8 1.2s linear forwards;
+}
+
+.animate-width-9 {
+    animation: grap9 1.2s linear forwards;
 }
 
 .grap_inner {
