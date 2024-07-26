@@ -55,7 +55,7 @@ h3 {
 
 #sec3 {
     background-color: #aaceffbf;
-    padding: 105px 250px;
+    padding: 141px 250px;
 }
 
 #sec4 {
@@ -73,7 +73,7 @@ h3 {
 
 #sec4,
 #sec4-2,
-#sec4-3 {
+#sec4-1 {
     padding: 80px;
 }
 
@@ -538,7 +538,7 @@ canvas {
     }
 
     to {
-        width: 80%;
+        width: 85%;
     }
 }
 
@@ -568,7 +568,7 @@ canvas {
     }
 
     to {
-        width: 80%;
+        width: 85%;
     }
 }
 
@@ -583,15 +583,6 @@ canvas {
 }
 
 @keyframes grap8 {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 85%;
-    }
-}
-@keyframes grap9 {
     from {
         width: 0;
     }
@@ -631,10 +622,6 @@ canvas {
 
 .animate-width-8 {
     animation: grap8 1.2s linear forwards;
-}
-
-.animate-width-9 {
-    animation: grap9 1.2s linear forwards;
 }
 
 .grap_inner {
@@ -738,15 +725,6 @@ canvas {
     margin-top: 10px;
     font-size: 17px;
     color: #3f3f3f;
-}
-.big {
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-}
-.small {
-    font-size: 16px;
-    margin-top: 10px;
 }
 
 .inner3 {
