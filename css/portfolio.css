@@ -9,6 +9,7 @@ body {
     font-family: "Kanit", sans-serif;
     background-color: #aaceffbf;
     /* font-family: "Tiny5", sans-serif; */
+    overflow-x: hidden;
 }
 
 ul {
@@ -48,14 +49,14 @@ h3 {
 
 #sec2 {
     background-color: #aaceffbf;
-    padding: 115px 80px;
+    padding: 10px;
     height: 100vh;
     box-sizing: border-box;
 }
 
 #sec3 {
     background-color: #aaceffbf;
-    padding: 141px 250px;
+    padding: 10px;
 }
 
 #sec4 {
@@ -63,6 +64,7 @@ h3 {
 }
 
 #sec4-1 {
+    padding-left: 19px !important;
     background-color: #aaceffbf;
 }
 
@@ -72,13 +74,13 @@ h3 {
 
 #sec5 {
     background-color: #4880f7;
-    padding: 200px;
+    padding: 48px;
 }
 
 #sec4,
 #sec4-2,
 #sec4-1 {
-    padding: 80px;
+    padding: 10px;
 }
 
 
@@ -199,7 +201,7 @@ line-height: 60px;
     background-size: 0% 100%;
     margin-top: 50px;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 18px;
     opacity: 0;
     color: #ffffff;
     letter-spacing: 2.05em;
@@ -242,7 +244,7 @@ line-height: 60px;
     font-size: 140px;
     position: relative;
     text-align: center;
-    font-size: 125px;
+    font-size: 100px;
 
 }
 
@@ -442,7 +444,7 @@ canvas {
     display: flex;
     align-items: center;
     margin-top: 75px;
-    margin-left: 90px;
+    /* margin-left: 90px; */
 }
 
 .pro_l {
@@ -469,7 +471,7 @@ canvas {
     padding: 11px;
     border: 3px dashed hsl(0, 0%, 33%);
     border-radius: 25px;
-    width: 31%;
+    width: 24%;
     font-size: 0;
 }
 
@@ -494,7 +496,7 @@ canvas {
 .grap {
     width: 100%;
     border-radius: 23px;
-    height: 50px;
+    height: 44px;
     line-height: 50px;
     box-sizing: border-box;
     padding-right: 19px;
@@ -510,9 +512,10 @@ canvas {
 }
 
 .grap_box {
-    width: 100%;
+    margin-left: 70px;
+    width: 86%;
     display: flex;
-    margin-bottom: 28px;
+    margin-bottom: 8px;
     align-items: center;
 }
 
@@ -631,7 +634,7 @@ canvas {
 .grap_inner {
     width: 0;
     border-radius: 23px;
-    height: 50px;
+    height: 44px;
     line-height: 50px;
     box-sizing: border-box;
     padding-right: 19px;
@@ -642,19 +645,20 @@ canvas {
 /* ======================포트폴리오==================== */
 
 .pot_title {
-    font-size: 20px;
+    font-size: 16px;
     color: hsl(0, 1%, 45%);
     margin-right: 10px;
 }
 
 .pot_date {
+    font-size: 14px;
     margin-bottom: 15px;
     color: hsl(0, 1%, 45%);
 }
 
 .pot_box {
     box-sizing: border-box;
-    padding-top: 60px;
+    padding-top: 35px;
     width: 100%;
     height: 92%;
     display: flex;
@@ -666,7 +670,7 @@ canvas {
 
 .moniter_p {
     width: 50%;
-    perspective: 1000px
+    perspective: 1000px;
 }
 
 .moniter {
@@ -677,6 +681,7 @@ canvas {
 }
 
 .moniter2 {
+    margin-left: 34px;
     width: 100%;
     transform: rotateY(-19deg);
     translate: -37px;
@@ -684,12 +689,12 @@ canvas {
 }
 
 .moniter>img {
-    width: 100%;
+    width: 84%;
 
 }
 
 .moniter2>img {
-    width: 100%;
+    width: 84%;
 }
 
 .pot_sub_box {
@@ -698,36 +703,36 @@ canvas {
 }
 
 .sub1 {
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     color: #3f3f3f;
 }
 
 .sub2_box {
-    gap: 8px;
+    gap: 5px;
     display: flex;
-    margin: 25px 0;
+    margin: 14px 0;
     flex-wrap: wrap;
 }
 
 .sub2_box_inner {
     text-align: center;
-    line-height: 72px;
-    font-size: 19px;
-    height: 72px;
+    line-height: 61px;
+    font-size: 15px;
+    height: 61px;
     margin: 0 5px;
     background: #4880f7;
     color: #fff;
-    width: 80px;
+    width: 62px;
     border-radius: 9px;
 }
 
 .sub3_dec {
     box-sizing: border-box;
-    padding: 16px;
+    padding: 6px;
     border-radius: 12px;
     border: 2px dashed #8d8d8d;
     margin-top: 10px;
-    font-size: 17px;
+    font-size: 14px;
     color: #3f3f3f;
 }
 
@@ -741,7 +746,7 @@ canvas {
 }
 
 .pot_name {
-    font-size: 30px;
+    font-size: 24px;
     margin-bottom: 15px;
 }
 
@@ -750,7 +755,7 @@ canvas {
 .frame {
     gap: 70px;
     display: flex;
-    margin-top: 35px;
+    margin-top: 23px;
     justify-content: center;
 }
 
